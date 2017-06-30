@@ -60,10 +60,10 @@ $ diff fuga.txt fuga.decomp
 An example for a multi-byte text.
 
 ```sh
-$ echo "âêîôû" | python src/polcarun.py comp --encoding=utf8 | python src/olcamain.py decomp --encoding=utf8
+$ echo "âêîôû" | python src/polcarun.py comp --encoding=utf8 | python src/polcarun.py decomp --encoding=utf8
 âêîôû
 # ofcourse, you can treat a byte as a character also for a multi-byte text!
-$ echo "âêîôû" | python src/polcarun.py comp | python src/olcamain.py decomp
+$ echo "âêîôû" | python src/polcarun.py comp | python src/polcarun.py decomp
 âêîôû
 ```
 
