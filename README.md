@@ -70,7 +70,7 @@ $ echo "âêîôû" | python src/polcarun.py comp | python src/olcamain.py decom
 ## Tests
 
 ```sh
-$ cd download
+$ cd data
 $ ./download.sh # download corpus
 $ cd ../
 $ python -m unittest -v src/test_polca.py
